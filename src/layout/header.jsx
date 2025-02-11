@@ -4,8 +4,8 @@ import Ticz from "../assets/ticz.png"
 
 const header = () => {
   return (
-    <header className=" bg-[#041E23] flex justify-between w-[90%] lg:max-w-[1200px] h-[76px] lg:w-[80%]  px-5 text-[16px] border-[#197686] m-auto border-2 rounded-[12px] lg:rounded-[24px] p-3.5  ">
-    <div className="flex mt-2.5">
+    <header className=" bg-[#041E23] flex justify-between w-[90%] lg:max-w-[1200px] h-[76px] lg:w-[80%]  px-5 text-[16px] border-[#197686] m-auto border-2 rounded-[12px] lg:rounded-[24px] p-[12px] ">
+    <div className="flex mt-2.5 w-[91.79px] h-[36px">
       <img className="w-[40px] h-[36px]" src={Ticket} alt="ticket" />
       <img className="w-[44px] h-[23px] mt-1.5 ml-1.5" src={Ticz} alt="ticket" />
     </div>
