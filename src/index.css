@@ -17,6 +17,10 @@ body {
   font-family: 'roboto';
 }
 
+.road {
+  font-family: 'road';
+}
+
 @font-face {
   font-family: 'jeju';
   src: url(./assets/JejuMyeongjo-Regular.ttf);
@@ -24,5 +28,10 @@ body {
 
 @font-face {
   font-family: 'roboto';
-  src: url(./assets/Roboto-VariableFont_wdth\,wght.ttf);
+  src: url(./assets/Roboto.ttf);
+}
+
+@font-face {
+  font-family: 'road';
+  src: url(./assets/RoadRage.ttf);
 }
