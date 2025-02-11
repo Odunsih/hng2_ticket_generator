@@ -11,7 +11,7 @@ const button = ({ btnName, arr, onClick, variant = "primary", size = "md" }) => 
 
   const variantStyles = {
     ticket: " bg-white w-[140.6px] h-[44px] text-[14px] lg:w-[170px] lg:h-[52px] lg:text-[16px] transition hover:bg-[#24A0B5] hover:border-[#D9D9D9] hover:text-[#D9D9D9] hover:border-[.1px]",
-    select: "text-[#24A0B5] text-[16px] border-[#24A0B5] border-1 w-[266px] h-[48px] pr-[24px] pl-[12px] transition hover:bg-[#24A0B5] hover:text-[#fff]",
+    select: "text-[#24A0B5] text-[16px] border-[#24A0B5] border-1 w-[100%] lg:w-[266px] h-[48px] pr-[24px] pl-[12px] transition hover:bg-[#24A0B5] hover:text-[#fff]",
     outline: "text-[#24A0B5] border-[#24A0B5] border-1 w-[214px] h-[48px] pr-[24px] pl-[12px] transition hover:bg-[#24A0B5] hover:text-[#fff]",
     danger: "bg-red-600 text-white hover:bg-red-700",
   };
