@@ -122,14 +122,14 @@ const TicketSelection = ({
                     </div>
                   </div>
                   {errors?.ticketType && (
-                    <p className="text-[#24A0B5] text-md mt-0" role="alert">
+                    <p className="text-[#ff1616] text-lg mt-4" role="alert">
                       {errors.ticketType}
                     </p>
                   )}
                 </div>
 
                 {/* NUMBER OF TICKET */}
-                <div className="w-[97%] lg:w-[556px] h-[80px] mt-[25px] mb-[25px]">
+                <div className="w-[97%] lg:w-[556px] h-[80px] mt-[40px] mb-[25px]">
                   <label htmlFor="numberOfTickets" className="roboto text-[16px]/[150%] mb-[8px]">
                     Number of Tickets
                   </label>
