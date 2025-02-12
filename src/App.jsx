@@ -106,7 +106,7 @@ const App = () => {
         tempErrors.ticketType = "Please select a ticket type";
         isValid = false;
       }
-      // Number of tickets is pre-selected so no validation needed
+      
     }
 
     // For step 2
@@ -183,11 +183,11 @@ const App = () => {
             step={step}
             selectedDiv={selectedDiv}
             formData={formData}
-            errors={errors} // Add this
+            errors={errors} 
             handleClick={handleClick}
             handleInputChange={handleInputChange}
             handleNext={handleNext}
-            handleCancel={() => setStep(1)} // Add this
+            handleCancel={() => setStep(1)} 
           />
         )}
 

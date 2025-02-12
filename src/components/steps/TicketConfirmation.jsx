@@ -1,6 +1,6 @@
 import Button from "../../components/button.jsx";
-import User from "../../assets/user.png"; // Fix import path
-import BarCode from "../../assets/barCode.png"; // Fix import path
+import User from "../../assets/user.png"; 
+import BarCode from "../../assets/barCode.png"; 
 import PropTypes from 'prop-types';
 
 const TicketConfirmation = ({

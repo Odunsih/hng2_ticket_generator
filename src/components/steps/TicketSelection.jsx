@@ -8,8 +8,8 @@ const TicketSelection = ({
   handleClick, 
   handleInputChange, 
   handleNext,
-  errors, // Add this prop
-  handleCancel // Add this prop
+  errors, 
+  handleCancel 
 }) => {
   return (
     <section>
@@ -40,7 +40,7 @@ const TicketSelection = ({
                 {/* TICKET TYPE */}
                 <div className="w-[97%] lg:w-[556px] h-[442px] lg:h-[174px] mt-[25px] ">
                   <h3 className="roboto text-[16px]/[150%] font-light">Select Ticket Type:</h3>
-                  <div role="radiogroup" aria-label="Ticket Type Selection" className="w-[100%] lg:w-[556px] h-[410px] lg:h-[142px] p-[16px] mt-[16px] mb-[16px] rounded-[24px] bg-[#052228] border-[#07373F] border-[1px] flex flex-col lg:flex-row justify-evenly">
+                  <div role="radiogroup" aria-label="Ticket Type Selection" className="w-[100%] lg:w-[556px] h-[410px] lg:h-[142px] p-[16px] mt-[16px] mb-[0] rounded-[24px] bg-[#052228] border-[#07373F] border-[1px] flex flex-col lg:flex-row justify-evenly">
                     {/* FREE */}
                     <div
                       className={`flex flex-col justify-between w-[100%] lg:w-[158px] h-[110px] p-[12px] rounded-[12px] cursor-pointer border-[#197686] border-[1px] transition hover:bg-[#2C545B] ${
@@ -59,7 +59,7 @@ const TicketSelection = ({
                       aria-label="Free ticket - Regular Access"
                     >
                       <div className="w-[80px] h-[38px]">
-                        <h3 className="roboto font-semibold text-[20px]/[110%">Free</h3>
+                        <h3 className="roboto font-semibold text-[20px]/[110%]">Free</h3>
                       </div>
                       <div className="w-[138px] h-[49px] mt-[12px]">
                         <h3 className="roboto text-[#FAFAFA] text-[16px]/[150%] mb-[4px]">
@@ -122,7 +122,7 @@ const TicketSelection = ({
                     </div>
                   </div>
                   {errors?.ticketType && (
-                    <p className="text-red-500 text-sm mt-2" role="alert">
+                    <p className="text-[#24A0B5] text-md mt-0" role="alert">
                       {errors.ticketType}
                     </p>
                   )}
