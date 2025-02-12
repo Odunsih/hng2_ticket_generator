@@ -32,9 +32,9 @@ const TicketSelection = ({
         <div className="tech w-[100%] lg:w-[556px] h-[243px] lg:h-[200px] p-[16px] lg:p-[24px] rounded-[24px] border-[#07373F] border-[1px] text-center mb-[25px] ">
                   <div className="w-[100%] lg:w-[508px] h-[119px] mb-[25px]">
                     <h1 className="road text-[41px] lg:text-[62px] ">Techember Fest &quot;25</h1>
-                    <p className="roboto text-[14px] lg:text-[16px]/[150%] ">Join us for an unforgettable experience at <br /> [Event Name]! Secure your spot now.</p>
+                    <p className="roboto text-[14px] lg:text-[16px]/[150%] ">Join us for an unforgettable experience at <br /> Tech4Dev! Secure your spot now.</p>
                   </div>
-                  <p className="roboto pl-[10px] lg:pl-0 text-[16px]/[150%]">📍 [Event Location] <span className="mr-[16px] hidden md:inline ml-[16px]">|| </span> March 15, 2025 | 7:00 PM</p>
+                  <p className="roboto pl-[10px] lg:pl-0 text-[16px]/[150%]">📍 04 Rumens road, Ikoyi, Lagos <span className="mr-[16px] hidden md:inline ml-[16px]">|| </span> March 15, 2025 | 7:00 PM</p>
                 </div>
                 <hr className="h-[4px] text-[#07373F]" />
                 {/* TICKET TYPE */}
