@@ -109,7 +109,7 @@ const AttendeeDetails = ({
                   </label>
                   <input
                     id="name"
-                    className={`p-[12px] w-[100%] lg:w-[556px] h-[48px] border-[#07373F] border-[1px] rounded-[12px] text-[16px] mt-[8px] transition focus:bg-[#083C46] focus:ring-2 focus:ring-[#24A0B5] focus:outline-none caret-[#24A0B5] ${errors.name ? 'border-red-500' : ''}`}
+                    className={`p-[12px] w-[100%] lg:w-[556px] h-[48px] border-[#07373F] border-[1px] rounded-[12px] text-[16px] mb-[8px] mt-[8px] transition focus:bg-[#083C46] focus:ring-2 focus:ring-[#24A0B5] focus:outline-none caret-[#24A0B5] ${errors.name ? 'border-red-500' : ''}`}
                     type="text"
                     name="name"
                     value={formData.name}
@@ -130,7 +130,7 @@ const AttendeeDetails = ({
                   </div>
                   <input
                     id="email"
-                    className={`p-[12px] pl-[40px] w-[100%] lg:w-[556px] h-[48px] flex border-[#07373F] border-[1px] rounded-[12px] text-[16px] mt-[8px] transition focus:bg-[#083C46] focus:ring-2 focus:ring-[#24A0B5] focus:outline-none ${errors.email ? 'border-red-500' : ''}`}
+                    className={`p-[12px] pl-[40px] w-[100%] lg:w-[556px] h-[48px] flex border-[#07373F] border-[1px] rounded-[12px] text-[16px] mb-[8px] mt-[8px] transition focus:bg-[#083C46] focus:ring-2 focus:ring-[#24A0B5] focus:outline-none ${errors.email ? 'border-red-500' : ''}`}
                     type="email"
                     name="email"
                     value={formData.email}
