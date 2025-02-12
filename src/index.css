@@ -40,12 +40,13 @@ body {
   border-style: dashed;
   color: #24A0B5;
   width: 90%;
-  left: 16.6px;
+  left: 14px;
 
 }
 
 .pbd {
   border-bottom: 1px solid #12464E;
+  width: 100%;
 }
 
 .bdn {
