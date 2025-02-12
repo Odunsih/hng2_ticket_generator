@@ -34,7 +34,7 @@ const TicketSelection = ({
                     <h1 className="road text-[41px] lg:text-[62px] ">Techember Fest &quot;25</h1>
                     <p className="roboto text-[14px] lg:text-[16px]/[150%] ">Join us for an unforgettable experience at <br /> [Event Name]! Secure your spot now.</p>
                   </div>
-                  <p className="roboto pl-[10px] lg:pl-0 text-[16px]/[150%]">📍 [Event Location] <span className="mr-[16px] invisible md:visible ml-[16px]">|| </span> March 15, 2025 | 7:00 PM</p>
+                  <p className="roboto pl-[10px] lg:pl-0 text-[16px]/[150%]">📍 [Event Location] <span className="mr-[16px] hidden md:inline ml-[16px]">|| </span> March 15, 2025 | 7:00 PM</p>
                 </div>
                 <hr className="h-[4px] text-[#07373F]" />
                 {/* TICKET TYPE */}
