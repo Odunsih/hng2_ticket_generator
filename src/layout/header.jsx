@@ -11,7 +11,7 @@ const header = () => {
     </div>
     <div className="h-[34px] w-[341px] text-[#B3B3B3] hidden lg:block ">
       <ul className="btnFont flex justify-between mt-[10px] mb-[10px]">
-        <li className=" hover:text-[#FFF] cursor-pointer">Events</li>
+        <li className=" text-[#FFF] cursor-pointer ">Events</li>
         <li className=" hover:text-[#FFF] cursor-pointer">My Tickets</li>
         <li className=" hover:text-[#FFF] cursor-pointer">About Project</li>
       </ul>
