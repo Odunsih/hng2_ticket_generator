@@ -6,6 +6,20 @@ body {
   color: #fff;
 }
 
+.back {
+  background: 
+  radial-gradient(52.52% 32.71% at 50% 2.34%, rgba(36, 160, 181, 0.20) 0%, rgba(36, 160, 181, 0.00) 100%),
+  radial-gradient(52.52% 32.71% at 50% 97.66%, rgba(36, 160, 181, 0.20) 0%, rgba(36, 160, 181, 0.00) 100%),
+  #02191D;
+  color: #fff;
+}
+
+.tech {
+  background: 
+  linear-gradient(120deg, rgba(36, 160, 181, 0.20) 20%, rgba(36, 160, 181, 0.00) 90%, #02191D 100%),
+  #02191D;
+}
+
 .btnFont {
   font-family: 'jeju';
 }
@@ -16,6 +30,34 @@ body {
 
 .road {
   font-family: 'road';
+}
+
+.alatsi {
+  font-family: 'alatsi';
+}
+
+.zig {
+  border-style: dashed;
+  color: #24A0B5;
+  width: 90%;
+  left: 16.6px;
+
+}
+
+.pbd {
+  border-bottom: 1px solid #12464E;
+}
+
+.bdn {
+  border-right: 1px solid #12464E;
+}
+
+.bod {
+  border-top: none;
+  border-left: none;
+  border-bottom: none;
+  border-right-color: #24A0B5;
+  border-width: 1px;
 }
 
 @font-face {
@@ -31,4 +73,9 @@ body {
 @font-face {
   font-family: 'road';
   src: url(./assets/RoadRage.ttf);
+}
+
+@font-face {
+  font-family: 'alatsi';
+  src: url(./assets/Alatsi.ttf);
 }
