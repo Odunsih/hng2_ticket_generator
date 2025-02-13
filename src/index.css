@@ -15,9 +15,7 @@ body {
 }
 
 .tech {
-  background: 
-  linear-gradient(120deg, rgba(36, 160, 181, 0.20) 20%, rgba(36, 160, 181, 0.00) 90%, #02191D 100%),
-  #02191D;
+  background: radial-gradient(103.64% 57.39% at 14.02% 32.06%, rgba(36, 160, 181, 0.2) 0%, rgba(36, 160, 181, 0) 100%)
 }
 
 .btnFont {
